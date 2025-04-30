@@ -1,0 +1,16 @@
+{
+  "data": {
+    "requiredDimensions": ["Lane", "Label", "Category"],
+    "requiredMetrics": ["StartDate", "EndDate"]
+  },
+"style": {
+  "js": ["main.js"],
+  "css": ["style.css"]
+  },
+  "options": [
+    { "id": "barHeight",   "type": "NUMBER", "default": 24, "displayName": "Bar Height" },
+    { "id": "laneSpacing", "type": "NUMBER", "default": 40, "displayName": "Lane Spacing" }
+  ],
+  "name": "RoadmapViz",
+  "version": "1.0.0"
+}
